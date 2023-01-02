@@ -180,7 +180,8 @@ body {
 
 
 /* Tablet Globals */
-@media only screen and (min-width: 481px) and (max-width:768px) {
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
     
     .section-1 #bgvideo {
         display: none !important;
@@ -329,7 +330,7 @@ body {
     }
 }
 /**Desktop Query*/
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 1024px){
     .section-1 #bgvideo {
         display: block !important;
     }
@@ -339,7 +340,7 @@ body {
     .section-1 #bgTabletvideo {
         display: none !important;
     }
-  }
+}
   
 
 
@@ -358,16 +359,8 @@ body {
         display: none !important;
     }
 } */
-@media only screen and (max-width:480px){
-    /* .section-1 {
-        position: relative !important;
-        top: 0 !important;
-        bottom: 0 !important;
-        width: 100% !important;
-        height: 100% !important; 
-        overflow: hidden !important;
-      }
-     */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait){
     .section-1 #bgvideo {
         display: none !important;
     }
@@ -515,6 +508,758 @@ body {
         text-transform: uppercase;
     }
 }
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px)
+and (orientation: landscape) {
+    .section-1 #bgvideo {
+        display: none !important;
+    }
+    .section-1 #bgMobilevideo {
+        display: block !important;
+    }
+    .section-1 #bgTabletvideo {
+        display: none !important;
+    }
+    .title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70px;
+        /* or 107% */
+
+        letter-spacing: 0.5px;      
+    }
+
+    .h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 65px;
+        /* or 112% */
+
+        letter-spacing: 0.5px;
+    }
+
+    .h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        /* or 116% */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.5px;
+    }
+
+    .h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        /* or 120% */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.5px;
+    }
+
+    .h4 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        /* or 129% */
+
+        letter-spacing: 0.5px;
+    }
+
+    .h5 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 28px;
+        /* or 140% */
+
+        letter-spacing: 0.5px;
+    }
+
+    .h6 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: 0.5px;
+    }
+
+
+    .body-bold {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .body-large {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .body-default {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .body-small {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .button-large {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        /* or 167% */
+
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .button-default {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .button-small {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 14px;
+        /* identical to box height, or 157% */
+
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+}
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+    .section-1 #bgvideo {
+        display: none !important;
+    }
+    .section-1 #bgMobilevideo {
+        display: block !important;
+    }
+    .section-1 #bgTabletvideo {
+        display: none !important;
+    }
+    .title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70px;
+        /* or 107% */
+
+        letter-spacing: 0.5px;      
+    }
+
+    .h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 65px;
+        /* or 112% */
+
+        letter-spacing: 0.5px;
+    }
+
+    .h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        /* or 116% */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.5px;
+    }
+
+    .h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        /* or 120% */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.5px;
+    }
+
+    .h4 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        /* or 129% */
+
+        letter-spacing: 0.5px;
+    }
+
+    .h5 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 28px;
+        /* or 140% */
+
+        letter-spacing: 0.5px;
+    }
+
+    .h6 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: 0.5px;
+    }
+
+
+    .body-bold {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .body-large {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .body-default {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .body-small {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .button-large {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        /* or 167% */
+
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .button-default {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .button-small {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 14px;
+        /* identical to box height, or 157% */
+
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+  }
+   
+  /* For iPhone 4 Portrait or Landscape View */
+  @media screen and (min-device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .section-1 #bgvideo {
+        display: none !important;
+    }
+    .section-1 #bgMobilevideo {
+        display: block !important;
+    }
+    .section-1 #bgTabletvideo {
+        display: none !important;
+    }
+    .title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70px;
+        /* or 107% */
+
+        letter-spacing: 0.5px;      
+    }
+
+    .h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 65px;
+        /* or 112% */
+
+        letter-spacing: 0.5px;
+    }
+
+    .h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        /* or 116% */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.5px;
+    }
+
+    .h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        /* or 120% */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.5px;
+    }
+
+    .h4 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        /* or 129% */
+
+        letter-spacing: 0.5px;
+    }
+
+    .h5 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 28px;
+        /* or 140% */
+
+        letter-spacing: 0.5px;
+    }
+
+    .h6 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: 0.5px;
+    }
+
+
+    .body-bold {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .body-large {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .body-default {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .body-small {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .button-large {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        /* or 167% */
+
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .button-default {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .button-small {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 14px;
+        /* identical to box height, or 157% */
+
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+  }
+   
+  /* For iPhone 5 Portrait or Landscape View */
+  @media (device-height: 568px) and (device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .section-1 #bgvideo {
+        display: none !important;
+    }
+    .section-1 #bgMobilevideo {
+        display: block !important;
+    }
+    .section-1 #bgTabletvideo {
+        display: none !important;
+    }
+    .title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70px;
+        /* or 107% */
+
+        letter-spacing: 0.5px;      
+    }
+
+    .h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 65px;
+        /* or 112% */
+
+        letter-spacing: 0.5px;
+    }
+
+    .h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        /* or 116% */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.5px;
+    }
+
+    .h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        /* or 120% */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.5px;
+    }
+
+    .h4 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        /* or 129% */
+
+        letter-spacing: 0.5px;
+    }
+
+    .h5 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 28px;
+        /* or 140% */
+
+        letter-spacing: 0.5px;
+    }
+
+    .h6 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: 0.5px;
+    }
+
+
+    .body-bold {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .body-large {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .body-default {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .body-small {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .button-large {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        /* or 167% */
+
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .button-default {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .button-small {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 14px;
+        /* identical to box height, or 157% */
+
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+  }
+   
+  /* For iPhone 6 and 6 plus Portrait or Landscape View */
+  @media (min-device-height: 667px) and (min-device-width: 375px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .section-1 #bgvideo {
+        display: none !important;
+    }
+    .section-1 #bgMobilevideo {
+        display: block !important;
+    }
+    .section-1 #bgTabletvideo {
+        display: none !important;
+    }
+    .title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70px;
+        /* or 107% */
+
+        letter-spacing: 0.5px;      
+    }
+
+    .h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 65px;
+        /* or 112% */
+
+        letter-spacing: 0.5px;
+    }
+
+    .h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        /* or 116% */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.5px;
+    }
+
+    .h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        /* or 120% */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.5px;
+    }
+
+    .h4 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        /* or 129% */
+
+        letter-spacing: 0.5px;
+    }
+
+    .h5 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 28px;
+        /* or 140% */
+
+        letter-spacing: 0.5px;
+    }
+
+    .h6 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: 0.5px;
+    }
+
+
+    .body-bold {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .body-large {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .body-default {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .body-small {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .button-large {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        /* or 167% */
+
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .button-default {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .button-small {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 14px;
+        /* identical to box height, or 157% */
+
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+  }
 
 /* End of globals */
 
